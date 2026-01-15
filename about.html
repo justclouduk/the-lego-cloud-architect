@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About | The LEGO Cloud Architect</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Fun font -->
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <style>
+    .hero {
+      background: #ffcc00;
+      padding: 30px 20px;
+      position: relative;
+      text-align: left;
+    }
+
+    .hero-content {
+      max-width: 900px;
+      margin: 0 auto;
+      padding-right: 170px;
+    }
+
+    .avatar {
+      width: 140px;
+      position: absolute;
+      right: 20px;
+      top: 25px;
+    }
+
+    body {
+      font-family: 'Baloo 2', Arial, sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      text-align: center;
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px 20px 60px;
+      line-height: 1.6;
+      font-size: 1.1em;
+      text-align: left;
+    }
+
+    .nav {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 10px 0 25px;
+      text-align: center;
+    }
+
+    .button {
+      display: inline-block;
+      margin: 6px;
+      padding: 12px 18px;
+      background: #0078d4;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: 800;
+    }
+
+    .button:hover { background: #005fa3; }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 22px 20px;
+      margin: 18px 0;
+    }
+
+    h1 { margin: 0; font-size: 2.2em; }
+    h2 { margin: 0 0 10px; font-size: 1.6em; }
+    p { margin: 10px 0; }
+
+    .img {
+      display: block;
+      margin: 12px auto;
+      max-width: 100%;
+      border-radius: 12px;
+    }
+
+    .caption {
+      text-align: center;
+      color: #666;
+      font-size: 0.95em;
+      margin-top: 10px;
+    }
+
+    ul { margin: 10px 0 0; padding-left: 22px; }
+
+    footer {
+      text-align: center;
+      color: #666;
+      padding: 30px 20px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="hero">
+    <img src="images/lego-architect.png" alt="LEGO Cloud Architect" class="avatar">
+    <div class="hero-content">
+      <h1>About</h1>
+      <p>Who made this site… and how does it work?</p>
+    </div>
+  </header>
+
+  <div class="nav">
+    <a class="button" href="index.html">Home</a>
+    <a class="button" href="lessons.html">Lessons</a>
+    <a class="button" href="about.html">About</a>
+  </div>
+
+  <main>
+    <div class="card">
+      <h2>How this site is built</h2>
+      <p>
+        This website looks simple (on purpose!) but it’s built using the same kind of tools
+        that lots of real companies use.
+      </p>
+
+      <img class="img" src="images/site-architecture.png" alt="Code goes to GitHub, then to Azure Static Web Apps, then people use the site">
+
+      <p class="caption">Code → GitHub → Azure Static Web Apps → You!</p>
+
+      <p><strong>Here’s what’s happening:</strong></p>
+      <ul>
+        <li><strong>I write the website pages</strong> (that’s the “code”).</li>
+        <li>I save the code in <strong>GitHub</strong> (a safe place for storing and sharing code).</li>
+        <li>GitHub then tells <strong>Azure</strong> to publish the newest version of the site.</li>
+        <li>Then anyone can open it on a phone, tablet, or computer and start learning.</li>
+      </ul>
+
+      <p>
+        The fun part is: every time I update a page and press “commit”, the website updates itself!
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Who am I?</h2>
+      <p>
+        Hi! I’m the person behind <strong>The LEGO Cloud Architect</strong>. I’m from (and live in) the UK.
+      </p>
+      <p>
+        I decided I wanted to “do computers” at school when I was about <strong>14</strong>…
+        mostly to impress a girl I was fond of. (A classic IT origin story.)
+      </p>
+      <p>
+        I studied <strong>Advanced IT</strong> at college, and got my first IT job when I was <strong>20</strong>.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>My first IT job (aka: The Engineer Case Era)</h2>
+      <p>
+        My job was to build PCs and travel around to small companies fixing all sorts of things:
+        computers, printers, networks… and the occasional “have you tried turning it off and on again?”
+      </p>
+      <p>
+        I had a trusty engineer’s case full of tools and cables. It felt a bit like being a tech superhero…
+        just with more paper jams.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>How I ended up in the cloud</h2>
+      <p>
+        I first heard about “cloud computing” around <strong>2008</strong>. It sounded like magic back then.
+      </p>
+      <p>
+        By <strong>2012</strong>, I was helping set up a small hosting company using private clouds — and I was
+        working from home before it was cool.
+      </p>
+      <p>
+        Over the years I’ve been an architect and solution builder for <strong>service providers</strong>,
+        <strong>banks</strong>, and a <strong>large sporting company</strong>.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>Family life</h2>
+      <p>
+        By <strong>2019</strong> I was married, with my first son (born in <strong>2018</strong>).
+        My second son arrived in <strong>2020</strong>.
+      </p>
+      <p>
+        They’re the inspiration for this whole website. They ask big questions — and I love trying to answer them
+        in a way that actually makes sense!
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>When I’m not doing computers…</h2>
+      <p>
+        I enjoy reading, movies, and of course spending time with my family.
+      </p>
+    </div>
+
+    <footer>
+      © The LEGO Cloud Architect — Built for curious minds (and their grown-ups).
+    </footer>
+  </main>
+</body>
+</html>
